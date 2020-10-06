@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    background-color: rgb(184, 243, 243);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 50%;
+    float: left;
+}
+
+.header-bio {
+    float: left;
+    padding: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+    color: #11999e;
+}
+
+p {
+    font-weight: bold;
+}
+
+.header-connect {
+    float: right;
+    padding: 30px;
+}
+
+.header-connect a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-connect a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+
+.div-clear {
+    clear: both;
+}
+
+hr {
+    border-bottom: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.content {
+    margin-bottom: 30px;
+}
+
+.left-div {
+    float: left;
+    width: 30%;
+}
+
+.right-div {
+    float: left;
+    width: 70%;
+}
+
+.common-hr {
+    border: black solid 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.skill-div-left{
+    float: left;
+    width: 45%;
+}
+.skill-div-right{
+     float: left;
+     width: 45%;
+}
+
+ul{
+    padding: 15px;
+}
+.edu-left{
+    float: left;
+    width: 40%;
+    margin-right: 10px;
+}
+.edu-right{
+    float: left;
+    width: 50%;
+}
+.bottom{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+
+}
+.bottom a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom a:hover{
+    text-decoration:underline;
+    color: tomato;
+}
+.bottom p{
+    color: white;
+    margin-top: 20px;
+}
