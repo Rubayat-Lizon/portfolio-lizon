@@ -1,0 +1,182 @@
+/* Large devices (laptops/desktops, 992px and up) */
+
+ /* navbar start hare */
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* tag selector */
+img{
+    height: 70px;
+}
+/* id selector */
+/* class selector */
+.nav-logo{
+    text-align: left;
+}
+ .nav-head h1{
+     text-align: right;
+ }
+ .nav-menu{
+     flex-direction: row;
+     justify-content: flex-end;
+ }
+.nav-menu a{
+    background-color: transparent;
+    /* background-color: #0c6168; */
+    padding: 5px 15px;
+    margin: 20px 0px;
+}
+
+
+
+ /* navbar ends hare */
+
+  /* profile start hare */
+
+
+  /* tag selector */
+  /* id selector */
+  /* class selector */
+  
+.top-weather-icon{
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+
+    transition: width 2s, transform 2s;
+}
+.top-weather-icon:hover{
+
+    width: 130px;
+}
+
+.umbralla{
+    display: flex;
+    position: absolute;
+    left: 250px;
+    bottom: 250px;
+    height: 270px;
+
+    transition: height 2s, transform 2s;
+}
+.umbralla:hover{
+    height: 290px;
+    
+}
+
+
+.profile-desc h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+}
+.profile-desc p{
+    color: gray;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.bottom-weather-icon{
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    left: 100px;
+    
+    transition: width 2s, transform 2s;
+}
+.bottom-weather-icon:hover{
+
+    width: 130px;
+}
+
+  /* profile ends hare */
+
+   /* aboutMe starts hare */
+
+   /* tag selector */
+   /* id selector */
+   /* class selector */
+.about-me-image{
+    margin-top: 100px ;
+}
+.about-me-image img{
+    height: 270px;
+    width: 250px;
+}
+.aboutme-desc p{
+    text-align: left;
+}
+
+   /* aboutMe ends hare */
+
+
+   /* professional experience starts hare */
+   /* tag selector */
+   /* id selector */
+   /* class selector */
+
+   .pf-experince{
+       padding: 1% 5%;
+   }
+
+   /* professional experience ends hare */
+
+   /* achivement connect section starts hare */
+   /* tag selector */
+   /* id selector */
+   /* class selector */
+   .achivement{
+       padding-right: 50px;
+
+   }
+   
+   .ach{
+       width: 300px;
+       text-align: left;
+   }
+   
+   .contact button{
+       width: 140px;
+   }
+
+   .contact-link{
+       position: relative;
+   }
+   .contact-link .midea-btn{
+       margin-top: 200px;
+       position: absolute;
+       left: 50%;
+       top: 50%;
+       transform: translate(-50%,-50%);
+   }
+   /* achivement connect section ends hare */
+
+    /* footer starts from here  */
+
+    /* tag selector */
+    /* id selector */
+    /* class selector */
+    .footer-menu{
+        margin-top: 12px;
+    }
+    .footer-menu a{
+        display: inline;
+        margin: 10px;
+    }
+ 
+    /* footer ends from here  */
