@@ -10,7 +10,7 @@ body {
 
 .container {
     width: 1000px;
-    background-color: rgb(184, 243, 243);
+    background-color: rgb(190, 215, 172);
     margin: 0 auto;
     padding: 20px;
 }
@@ -32,6 +32,16 @@ header {}
     padding: 30px;
 }
 
+.lnk {
+    transition: font-size .5s;
+    color: blue;
+}
+
+.lnk:hover {
+    color: rgb(221, 98, 16);
+    font-size: 1.3rem;
+}
+
 h1,
 h2,
 h3,
@@ -39,7 +49,7 @@ h4,
 h5,
 p,
 a {
-    color: #11999e;
+    color: #2b9955;
 }
 
 p {
@@ -91,43 +101,61 @@ hr {
     width: 100%;
     margin: 20px auto;
 }
-.skill-div-left{
+
+.skill-div-left {
     float: left;
     width: 45%;
 }
-.skill-div-right{
-     float: left;
-     width: 45%;
+
+.skill-div-right {
+    float: left;
+    width: 45%;
 }
 
-ul{
+ul {
     padding: 15px;
 }
-.edu-left{
+
+.edu-left {
     float: left;
     width: 40%;
     margin-right: 10px;
 }
-.edu-right{
+
+.edu-right {
     float: left;
     width: 50%;
 }
-.bottom{
+
+.edu2-left {
+    float: left;
+    width: 40%;
+    margin-right: 10px;
+}
+
+.edu2-right {
+    float: left;
+    width: 50%;
+}
+
+.bottom {
     background-color: black;
     text-align: center;
     padding: 10px;
-
 }
-.bottom a{
+
+.bottom a {
     color: white;
     text-decoration: none;
     margin: 20px;
 }
-.bottom a:hover{
-    text-decoration:underline;
+
+.bottom a:hover {
+    text-decoration: underline;
     color: tomato;
 }
-.bottom p{
+
+.bottom p {
     color: white;
     margin-top: 20px;
 }
