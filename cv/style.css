@@ -104,12 +104,19 @@ hr {
 
 .skill-div-left {
     float: left;
-    width: 45%;
+    width: 30%;
+    margin-right: 30px;
+}
+.skill-div-middle {
+    float: left;
+    width: 25%;
+    margin-right: 5px;
 }
 
 .skill-div-right {
     float: left;
-    width: 45%;
+    width: 35%;
+
 }
 
 ul {
