@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dcf8e6;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    background-color: #F4F3F6;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-image {
+    width: 250px;
+    height: 250px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 3px;
+    margin-left: 20px;
+    
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #323B4C;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: green;
+}
+.dev_left_font{
+    color: white;
+}
+.div_left {
+    background-color: #323B4C;
+    float: left;
+    width: 30%;
+    padding: 2%;
+}
+
+.div_right {
+    background-color: #F4F3F6;
+    float: left;
+    width: 62%;
+    padding: 2%;
+}
+.div-clear {
+    clear: both;
+}
+
+hr{ 
+    border-bottom: solid #323B4C 2px;
+    width: 80%;
+    margin: 10px;
+}
+.dlh{
+    border-bottom: solid white 2px;
+}
+ul {
+    padding-left: 25px;
+}
+li{
+    padding-left: 5px;
+    padding-top: 5px;
+  
+    
+}
+h1{
+    padding-left: 5px;
+    padding-bottom: 25px;
+}
+h2{
+    padding-left: 5px;
+    padding-bottom: 0px;
+    padding-top: 15px;
+}
+h3{
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+h4{
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+p{
+    padding-left: 5px;
+    text-justify: auto;
+    line-height: 25px;
+}
+
+.btn{
+    
+    font-size: 2rem;
+    padding-right:10px;
+    float: left;
+    background-color:#323B4C ;
+    border-style: none;
+    color: white;
+}
+
+.skill_highlights_left{
+    background-color: #F4F3F6;
+    float: left;
+    width: 40%;
+    padding: 2%;
+}
+
+.skill_highlights_right{
+    background-color: #F4F3F6;
+    float: right;
+    width: 40%;
+    padding: 2%;
+}
